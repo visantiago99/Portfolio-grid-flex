@@ -9,10 +9,10 @@ export default function Header() {
   return (
     <div className="header">
       <div className="navbar">
-        <div className="logo"></div>
+          <button type="button" onClick={() => setActive(!activeState)} className="hamb-logo">
         <div className="hamburguer active">
-          <button type="button" onClick={() => setActive(!activeState)}></button>
         </div>
+          </button>
         <ul className={activeState ? "menu active" : "menu"}>
           <Link to="/"><li><button className="btn-header">HOME</button></li></Link>
           <Link to="/projects"><li><button className="btn-header">PROJECTS</button></li></Link>

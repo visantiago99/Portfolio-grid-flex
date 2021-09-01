@@ -36,16 +36,18 @@ body {
 
 .navbar {
   max-width: 1200px;
-  border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .hamburguer {
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background-image: url('./images/logo2.svg');
+  background-size: 500%;
+  background-position: center;
   border-radius: 5px;
   border: 0;
   position: relative;
@@ -60,8 +62,8 @@ body {
   left: 15%;
   width: 70%;
   height: 5%;
-  border-radius: 5px;
-  background-color: #fff;
+  /* border-radius: 5px;
+  background-color: #fff; */
 }
 
 .hamburguer::before {
@@ -71,8 +73,8 @@ body {
   left: 15%;
   width: 70%;
   height: 5%;
-  border-radius: 5px;
-  background-color: #fff;
+  /* border-radius: 5px;
+  background-color: #fff; */
 }
 
 .footer {
