@@ -50,8 +50,8 @@ export default function Home() {
         <div className="know-item">
           <img src={mysql} alt="mysql" />
         </div>
-        <Footer />
       </main>
+        <Footer />
     </div>
   )
 }
