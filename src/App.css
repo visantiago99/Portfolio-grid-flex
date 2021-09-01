@@ -175,6 +175,12 @@ ul {
   text-align: center;
 }
 
+.sidenav img {
+  width: 250px;
+  margin-top: 10px;
+  transform: rotate(-90deg);
+}
+
 .know-item {
   width: 300px;
   height: 300px;
@@ -186,6 +192,12 @@ ul {
 }
 
 @media (max-width: 820px) {
+  .sidenav img {
+    width: 250px;
+    margin-top: 10px;
+    transform: rotate(0deg);
+  }
+  
   .hamburguer {
     display: block;
     z-index: 999;

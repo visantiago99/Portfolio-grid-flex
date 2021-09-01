@@ -9,6 +9,7 @@ import react from '../images/react.svg';
 import redux from '../images/redux.svg';
 // import jest from '../images/jest.svg';
 import mysql from '../images/mysql.svg';
+import arrowdown from '../images/arrowdown.svg';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <main className="main-container">
         <div className="sidenav">
           <h3>Knowledge</h3>
+          <img src={arrowdown} alt="arrowdown"/>
         </div>
         <div className="know-item">
           <img src={html} alt="html" />
