@@ -14,6 +14,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  background-color: #1a1a1a;
   width: 100%;
   height: 60px;
   padding: 10px;
@@ -28,6 +29,11 @@ body {
 .social-icons {
   display: flex;
   justify-content: space-between;
+}
+
+.social-icons a {
+  font-size: 25px;
+  margin-right: 15px;
 }
 
 .btn-header {
