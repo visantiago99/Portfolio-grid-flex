@@ -19,9 +19,13 @@ export default function Header() {
           <Link to="/contact"><li><button className="btn-header btn1">CONTACT</button></li></Link>
         </ul>
       </div>
-      <div>
-        <a href='https://www.linkedin.com/in/victor-santiago-082542144/' target='_blank' rel='noreferrer'><SiLinkedin /></a>
-        <a href='https://github.com/visantiago99' target='_blank' rel='noreferrer'><SiGithub /></a>
+      <div className="social-icons">
+        <div>
+          <a href='https://www.linkedin.com/in/victor-santiago-082542144/' target='_blank' rel='noreferrer'><SiLinkedin /></a>
+        </div>
+        <div>
+          <a href='https://github.com/visantiago99' target='_blank' rel='noreferrer'><SiGithub /></a>
+        </div>
       </div>
     </div>
   )
