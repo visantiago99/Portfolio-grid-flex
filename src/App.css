@@ -231,7 +231,7 @@ ul {
 .sidenav {
   width: 300px;
   height: 100%;
-  background-color: #333;
+  background-color: #272b33;
   border-radius: 20px;
   grid-area: 'sidenav';
   grid-row: sidenav;
@@ -242,12 +242,13 @@ ul {
   width: 250px;
   margin-top: 10px;
   transform: rotate(-90deg);
+  margin-top: 20px;
 }
 
 .know-item {
   width: 300px;
   height: 300px;
-  background-color: #333;
+  background-color: #272b33;
   border-radius: 20px;
   grid-area: 'know-item';
   max-width: 300px;
