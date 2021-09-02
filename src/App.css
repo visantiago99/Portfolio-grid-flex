@@ -255,6 +255,26 @@ ul {
   min-width: 250px;
 }
 
+.redirect-project {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.redirect-project h2 {
+  margin-top: 20px;
+}
+
+.redirect-project h2 a {
+  font-size: 30px;
+}
+
+.trybe {
+  color: rgb(47, 193, 140);
+}
+
 @media (max-width: 820px) {
   .sidenav img {
     width: 250px;

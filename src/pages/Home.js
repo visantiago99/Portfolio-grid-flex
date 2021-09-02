@@ -10,6 +10,8 @@ import redux from '../images/redux.svg';
 // import jest from '../images/jest.svg';
 import mysql from '../images/mysql.svg';
 import arrowdown from '../images/arrowdown.svg';
+import { FcBinoculars } from "react-icons/fc";
+import {Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -53,7 +55,15 @@ export default function Home() {
           <img src={mysql} alt="mysql" />
         </div>
       </main>
-        <Footer />
+      <div className="redirect-project">
+          <div>
+            <h2>I'm currently studying on <a href='https://www.betrybe.com/'><span className="trybe">Trybe</span></a> to be a Full Stack Developer </h2>
+          </div>
+          <div>
+            <h2>You can see some of my projects here: <Link to="/projects"><FcBinoculars ></FcBinoculars></Link></h2>
+          </div>
+        </div>
+      <Footer />
     </div>
   )
 }
