@@ -14,9 +14,9 @@ export default function Header() {
         </div>
           </button>
         <ul className={activeState ? "menu active" : "menu"}>
-          <Link to="/"><li><button className="btn-header">HOME</button></li></Link>
-          <Link to="/projects"><li><button className="btn-header">PROJECTS</button></li></Link>
-          <Link to="/contact"><li><button className="btn-header">CONTACT</button></li></Link>
+          <Link to="/"><li><button className="btn-header btn1">HOME</button></li></Link>
+          <Link to="/projects"><li><button className="btn-header btn1">PROJECTS</button></li></Link>
+          <Link to="/contact"><li><button className="btn-header btn1">CONTACT</button></li></Link>
         </ul>
       </div>
       <div>
