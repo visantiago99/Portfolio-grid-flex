@@ -297,6 +297,40 @@ ul {
   text-align:center
 }
 
+.contact-container {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-container h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inpt1 input {
+  width: 300px;
+  height: 30px;
+  color:rgb(26, 28, 43);
+}
+
+.inpt1 textarea {
+  width: 300px;
+  height: 150px;
+  color:rgb(26, 28, 43);
+}
+
+.divSocialContact a {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.contact-form h2 {
+  margin-top: 70px;
+}
+
 @media (max-width: 820px) {
   .sidenav img {
     width: 250px;
