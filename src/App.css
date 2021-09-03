@@ -275,6 +275,37 @@ ul {
   color: rgb(47, 193, 140);
 }
 
+.main-container-proj {
+  border: 0px solid white;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+  "p-item i-item"
+  "p-item i-item"
+  "p-item i-item"
+  "p-item i-item";
+  grid-gap: 20px;
+  padding: 0px 20px 0px 20px;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+
+.p-item img {
+  width: 70%;
+  height: 70%;
+  border-radius: 2px;
+}
+
+.git-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+  text-align:center
+}
+
 @media (max-width: 820px) {
   .sidenav img {
     width: 250px;
