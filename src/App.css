@@ -115,6 +115,7 @@ body {
   position: relative;
   cursor: pointer;
   display: none;
+  transition: 0.3s;
 }
 
 .hamburguer::after {
@@ -124,8 +125,6 @@ body {
   left: 15%;
   width: 70%;
   height: 5%;
-  /* border-radius: 5px;
-  background-color: #fff; */
 }
 
 .hamburguer::before {
@@ -135,8 +134,10 @@ body {
   left: 15%;
   width: 70%;
   height: 5%;
-  /* border-radius: 5px;
-  background-color: #fff; */
+}
+
+.hamburguer:hover {
+  transform: rotateX(180deg);
 }
 
 .footer {
@@ -168,16 +169,6 @@ a {
   margin-left: 10px;
   padding: 10px 20px 10px 20px;
   border-color: 2px solid #fff;
-}
-
-.logo {
-  width: 45px;
-  height: 45px;
-  border-radius: 10px;
-  background-color: #ccc;
-  background-image: url('./images/logo2.svg');
-  background-size: 500%;
-  background-position: center;
 }
 
 ul {
