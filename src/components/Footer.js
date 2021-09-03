@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiLinkedin, SiGithub } from "react-icons/si";
+// import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -7,10 +7,10 @@ export default function Footer() {
           <div>
             <p>MADE WITH REACT, FLEXBOX AND GRID, BY VICTOR SANTIAGO </p>
           </div>
-          <div>
+          {/* <div>
           <a href='https://www.linkedin.com/in/victor-santiago-082542144/' target='_blank' rel='noreferrer'><SiLinkedin /></a>
           <a href='https://github.com/visantiago99' target='_blank' rel='noreferrer'><SiGithub /></a>
-          </div>
+          </div> */}
         </div>
   )
 }

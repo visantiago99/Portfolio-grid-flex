@@ -17,8 +17,6 @@ export default function ContactUs() {
 
   return (
     <form className="contact-form" onSubmit={sendEmail}>
-      <h2>Or you can send your message to my email:</h2>
-      <br />
       <div className="inpt1">
       <p>Name:</p>
       <label className="form-label">
@@ -40,11 +38,12 @@ export default function ContactUs() {
       </label>
       </div>
       <br />
+      <br />
       <div className="inpt1">
         <textarea name="message" placeholder='Your message'/>
       </div>
       <br />
-      <input type="submit" value="Send" className="btn btn-primary" onClick={() => alert('Your message has been send!')} />
+      <input type="submit" value="Send" className="btn-header" onClick={() => alert('Your message has been send!')} />
     </form>
   );
 }
