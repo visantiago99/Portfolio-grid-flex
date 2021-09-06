@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function Header() {
@@ -14,9 +14,9 @@ export default function Header() {
         </div>
           </button>
         <ul className={activeState ? "menu active" : "menu"}>
-          <Link to="/"><li><button className="btn-header btn1">HOME</button></li></Link>
-          <Link to="/projects"><li><button className="btn-header btn1">PROJECTS</button></li></Link>
-          <Link to="/contact"><li><button className="btn-header btn1">CONTACT</button></li></Link>
+          <NavLink to="/" activeClassName="selected"><li><button className="btn-header btn1">HOME</button></li></NavLink>
+          <NavLink to="/projects" activeClassName="selected"><li><button className="btn-header btn1">PROJECTS</button></li></NavLink>
+          <NavLink to="/contact" activeClassName="selected"><li><button className="btn-header btn1">CONTACT</button></li></NavLink>
         </ul>
       </div>
       <div className="social-icons">
