@@ -43,7 +43,7 @@ export default function ContactUs() {
         <textarea name="message" placeholder='Your message'/>
       </div>
       <br />
-      <input type="submit" value="Send" className="btn-header" onClick={() => alert('Your message has been send!')} />
+      <input type="submit" value="Send" className="btn-header btn1" onClick={() => alert('Your message has been send!')} />
     </form>
   );
 }

@@ -17,7 +17,8 @@ export default function Projects() {
               {/*365x454*/}
           </div>
           <div className="i-item">
-            <h2>info recipe</h2>
+            <h2>A recipe App made with Hooks and context API, <br /> wich you can see, search, filter, favorite and <br /> see all the steps of a food or drink.
+            </h2>
           </div>
           <div className="p-item">
               <a href='https://github.com/visantiago99/Trivia-App-React-Redux' target='_blank' rel='noreferrer'><img src={trivia} alt="trivia-gif" /></a>

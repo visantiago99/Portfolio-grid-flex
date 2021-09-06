@@ -298,6 +298,10 @@ ul {
   border-radius: 2px;
 }
 
+.i-item h2 {
+  font-size: 14px;
+}
+
 .git-container {
   display: flex;
   flex-wrap: wrap;
