@@ -103,6 +103,10 @@ body {
   justify-content: space-between;
 }
 
+.hamb-logo {
+  opacity: 0;
+}
+
 .hamburguer {
   width: 45px;
   height: 45px;
@@ -354,6 +358,10 @@ ul {
   .hamburguer {
     display: block;
     z-index: 999;
+  }
+  
+  .hamb-logo {
+    opacity: 1;
   }
 
   .menu {
