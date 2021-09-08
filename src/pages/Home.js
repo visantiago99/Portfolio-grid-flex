@@ -20,12 +20,12 @@ export default function Home() {
       <h1>Hello there! I'm Victor Santiago</h1>
       <section className="section-container">
         <div>
-          <img src={perfil} alt="perfil" />
-        </div>
-        <div>
           <h2>Passionate about technology and all of its vertents since a child, <br /> now studying everyday to be a Software Engineer</h2>
           <br />
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>                
+        </div>
+        <div>
+          <img src={perfil} alt="perfil" />
         </div>
       </section>
       <main className="main-container">
