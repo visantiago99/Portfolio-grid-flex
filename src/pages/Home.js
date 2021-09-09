@@ -25,7 +25,7 @@ export default function Home() {
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>                
         </div>
         <div>
-          <img src={perfil} alt="perfil" />
+          <img src={perfil} alt="perfil" className="img-perfil" />
         </div>
       </section>
       <main className="main-container">
