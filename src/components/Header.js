@@ -14,9 +14,9 @@ export default function Header() {
         </div>
           </button>
         <ul className={activeState ? "menu active" : "menu"}>
-          <NavLink to="/" activeClassName="selected"><li><button className="btn-header btn1">HOME</button></li></NavLink>
-          <NavLink to="/projects" activeClassName="selected"><li><button className="btn-header btn1">PROJECTS</button></li></NavLink>
-          <NavLink to="/contact" activeClassName="selected"><li><button className="btn-header btn1">CONTACT</button></li></NavLink>
+          <NavLink to="/" activeClassName="selected"><li><button className="btn-header btn1" onClick={window.scrollTo(0,0)}>HOME</button></li></NavLink>
+          <NavLink to="/projects" activeClassName="selected"><li><button className="btn-header btn1" onClick={window.scrollTo(0,0)}>PROJECTS</button></li></NavLink>
+          <NavLink to="/contact" activeClassName="selected"><li><button className="btn-header btn1" onClick={window.scrollTo(0,0)}>CONTACT</button></li></NavLink>
         </ul>
       </div>
       <div className="social-icons">
