@@ -426,8 +426,8 @@ ul {
     height: 100%;
     /* background-color: #1a1a1a; */
     background-image: url('./images/bulb.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: 2500px;
     /* background-position-x: 55%; */
   }
 }
