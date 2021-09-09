@@ -307,7 +307,7 @@ ul {
 }
 
 .i-item h2 {
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .git-container {
@@ -436,5 +436,9 @@ ul {
     border-radius: 20px;
     margin-bottom: 40px;
     margin-left: 10%;
+  }
+
+  .i-item h2 {
+    font-size: 14px;
   }
 }
