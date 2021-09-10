@@ -14,6 +14,7 @@ import { FcBinoculars } from "react-icons/fc";
 import {Link } from "react-router-dom";
 
 export default function Home() {
+  console.log(window.location.pathname)
   return (
     <div className="home-father">
       <Header />

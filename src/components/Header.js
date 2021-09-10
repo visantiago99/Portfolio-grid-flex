@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function Header() {
   const[activeState, setActive] = useState(false);
-
-
+  console.log(window.location.pathname)
+  const location = window.location.pathname
   return (
     <div className="header">
       <div className="navbar">
@@ -14,9 +14,9 @@ export default function Header() {
         </div>
           </button>
         <ul className={activeState ? "menu active" : "menu"}>
-          <NavLink to="/" activeClassName="selected"><li><button className="btn-header btn1" onClick={window.scrollTo(0,0)}>HOME</button></li></NavLink>
-          <NavLink to="/projects" activeClassName="selected"><li><button className="btn-header btn1" onClick={window.scrollTo(0,0)}>PROJECTS</button></li></NavLink>
-          <NavLink to="/contact" activeClassName="selected"><li><button className="btn-header btn1" onClick={window.scrollTo(0,0)}>CONTACT</button></li></NavLink>
+          <Link to="/"><li><button className={location !== "/" ? "btn-header btn1" : "btn-header btn1 selected"} onClick={window.scrollTo(0,0)}>HOME</button></li></Link>
+          <Link to="/projects"><li><button className={location !== "/projects" ? "btn-header btn1" : "btn-header btn1 selected"} onClick={window.scrollTo(0,0)}>PROJECTS</button></li></Link>
+          <Link to="/contact"><li><button className={location !== "/contact" ? "btn-header btn1" : "btn-header btn1 selected"} onClick={window.scrollTo(0,0)}>CONTACT</button></li></Link>
         </ul>
       </div>
       <div className="social-icons">
