@@ -7,8 +7,9 @@ import css from '../images/css.svg';
 import javascript from '../images/javascript.svg';
 import react from '../images/react.svg';
 import redux from '../images/redux.svg';
-// import jest from '../images/jest.svg';
+import jest from '../images/jest.svg';
 import mysql from '../images/mysql.svg';
+import MongoDB from '../images/MongoDB.svg'
 import arrowdown from '../images/arrowdown.svg';
 import { FcBinoculars } from "react-icons/fc";
 import {Link } from "react-router-dom";
@@ -49,11 +50,14 @@ export default function Home() {
         <div className="know-item">
           <img src={redux} alt="redux" />
         </div>
-        {/* <div className="know-item">
+        <div className="know-item">
           <img src={jest} alt="jest" />
-        </div> */}
+        </div>
         <div className="know-item">
           <img src={mysql} alt="mysql" />
+        </div>
+        <div className="know-item">
+          <img src={MongoDB} alt="MongoDB" />
         </div>
       </main>
       <div className="redirect-project">
