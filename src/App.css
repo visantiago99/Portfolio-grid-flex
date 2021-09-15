@@ -354,6 +354,7 @@ ul {
 
 .git-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 20px 20px;
@@ -392,6 +393,11 @@ ul {
 
 .contact-form h2 {
   margin-top: 70px;
+}
+
+.projects-instructions {
+  margin-top: 70px;
+  padding: 30px;
 }
 
 @media (max-width: 820px) {

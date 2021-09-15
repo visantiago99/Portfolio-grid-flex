@@ -11,6 +11,9 @@ export default function Projects() {
   return (
     <div>
       <Header />
+      <div className="projects-instructions">
+        <h1>You can click in the gifs to be redirected to the respective repository, or acess the running app by clicking in the links</h1>
+      </div>
       <div className="main-container-proj">
           <div className="p-item">
               <a href='https://github.com/visantiago99/Recipes-App' target='_blank' rel='noreferrer'><img src={recipe} alt="recipe-gif" /></a>
