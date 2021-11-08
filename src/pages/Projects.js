@@ -16,7 +16,7 @@ export default function Projects() {
       </div>
       <div className="main-container-proj">
           <div className="p-item">
-              <a href='https://github.com/visantiago99/Recipes-App' target='_blank' rel='noreferrer'><img src={recipe} alt="recipe-gif" /></a>
+              <a href='https://github.com/visantiago99/Recipes-APP-ContextAPI' target='_blank' rel='noreferrer'><img src={recipe} alt="recipe-gif" /></a>
           </div>
           <div className="i-item">
             <h2>A recipe App made with React, Hooks and context API, where you can see, search, filter, favorite and <br /> see all the steps of a food or drink.
