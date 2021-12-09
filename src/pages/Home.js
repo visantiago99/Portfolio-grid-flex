@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import perfil from '../images/perfil.jpg';
+import fotoVictor from '../images/fotoVictor.jpg';
 import html from '../images/html.svg';
 import css from '../images/css.svg';
 import javascript from '../images/javascript.svg';
@@ -27,7 +27,7 @@ export default function Home() {
           <h2>I'm a front-end developer, born and living in Brazil, wiling to work worldwide</h2>                
         </div>
         <div>
-          <img src={perfil} alt="perfil" className="img-perfil" />
+          <img src={fotoVictor} alt="perfil" className="img-perfil" />
         </div>
       </section>
       <main className="main-container">
