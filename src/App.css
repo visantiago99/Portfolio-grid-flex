@@ -259,6 +259,7 @@ ul {
   "sidenav know-item know-item"
   "sidenav know-item know-item"
   "sidenav know-item know-item"
+  "sidenav know-item know-item"
   "sidenav know-item know-item";
   grid-gap: 20px;
   padding: 0px 20px 0px 20px;
@@ -437,6 +438,10 @@ ul {
   .main-container {
 
     grid-template-areas: 
+    "sidenav know-item"
+    "sidenav know-item"
+    "sidenav know-item"
+    "sidenav know-item"
     "sidenav know-item"
     "sidenav know-item"
     "sidenav know-item"

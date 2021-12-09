@@ -5,6 +5,8 @@ import fotoVictor from '../images/fotoVictor.jpg';
 import html from '../images/html.svg';
 import css from '../images/css.svg';
 import javascript from '../images/javascript.svg';
+import nodejs from '../images/nodejs.svg';
+import bootstrap from '../images/bootstrap.svg';
 import react from '../images/react.svg';
 import redux from '../images/redux.svg';
 import jest from '../images/jest.svg';
@@ -43,6 +45,12 @@ export default function Home() {
         </div>
         <div className="know-item">
           <img src={javascript} alt="js" />
+        </div>
+        <div className="know-item">
+          <img src={nodejs} alt="nodejs" />
+        </div>
+        <div className="know-item">
+          <img src={bootstrap} alt="bootstrap" />
         </div>
         <div className="know-item">
           <img src={react} alt="react" />
